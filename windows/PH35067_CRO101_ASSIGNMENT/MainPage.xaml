@@ -1,0 +1,16 @@
+<Page
+    x:Class="PH35067_CRO101_ASSIGNMENT.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PH35067_CRO101_ASSIGNMENT"
+    xmlns:react="using:Microsoft.ReactNative"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <react:ReactRootView 
+        x:Name="ReactRootView"
+        ComponentName="PH35067_CRO101_ASSIGNMENT"
+        Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+        MinHeight="400"/>
+</Page>
